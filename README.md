@@ -1,1 +1,0 @@
-Practicas LC3
