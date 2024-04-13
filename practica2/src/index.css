@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classTable {
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
