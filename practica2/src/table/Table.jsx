@@ -24,7 +24,7 @@ const Table = ({brands}) => {
                 <tbody>
                     {table}
                     <tr>
-                        <td><p>El promedio de ingreso neto es</p></td>
+                        <td><p><strong>El promedio de ingreso neto es</strong></p></td>
                         <td>{average}</td>
                     </tr>
                 
@@ -43,5 +43,8 @@ Table.propTypes = {
 }
 
 export default Table;
+
+
+
 
 
