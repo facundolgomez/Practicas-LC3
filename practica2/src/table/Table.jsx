@@ -39,7 +39,7 @@ const Table = ({brands}) => {
 
 
 Table.propTypes = {
-    brands: PropTypes.array //especificando propTypes
+    brands: PropTypes.array  //especificando propTypes
 }
 
 export default Table;
