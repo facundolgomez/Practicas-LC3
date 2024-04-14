@@ -10,14 +10,13 @@ Escribir una etiqueta p que muestre el promedio de ingreso neto entre todas las 
 
 import Table from "./table/Table.jsx";
 
-const netIncomes = [
-  {brand: "McDonalds", income: 1291283},
-  {brand: "Burger King", income: 1927361},
-  {brand: "KFC", income: 1098463}
-];
-
-
 const App = () => {
+  const netIncomes = [
+    {brand: "McDonalds", income: 1291283},
+    {brand: "Burger King", income: 1927361},
+    {brand: "KFC", income: 1098463}
+  ];
+  
   return (
     <>
     <Table brands={netIncomes}/>
@@ -27,3 +26,7 @@ const App = () => {
 } 
   
 export default App;
+
+
+
+
