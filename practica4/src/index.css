@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Single+Day&display=swap');
+
+
+body {
+  background-color:#202422;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.things-to-do {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+input::placeholder { 
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 42px;
+
+}
+
+.container button {
+  margin-top: 10px;
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+  
+ 
+.container input {
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 220px;
+}
+
+
+i.bx.bx-check, 
+i.bx.bx-trash {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px; 
+}
