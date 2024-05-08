@@ -20,8 +20,8 @@ La app nos debe permitir:
 */
 
 import { useState } from "react";
-import NewTask from "./newTask/NewTask";
-import TasksOnList from "./tasksOnList/TasksOnList";
+import NewTask from "./components/newTask/NewTask";
+import TasksOnList from "./components/tasksOnList/TasksOnList";
 
 const App = () => {
   const [arrayTasks, setArrayTasks] = useState([]);

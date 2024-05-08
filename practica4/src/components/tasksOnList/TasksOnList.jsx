@@ -24,8 +24,8 @@ const TasksOnList = ({ tasks, setTasks }) => {
                         
                         <span>{task}</span>
                         
-                        <i className='bx bx-check' onClick={() => handleAddCheck(index)}></i> 
-                        <i className='bx bx-trash' onClick={() => handleDeleteTask(index)}></i>
+                        <input type="button" className='checkButton' value={"Completed"} onClick={() => handleAddCheck(index)}/> 
+                        <input type="button" className='deleteButton' value={"Elimintated"} onClick={() => handleDeleteTask(index)}/>
                     </li>
                 ))}
             </ul>

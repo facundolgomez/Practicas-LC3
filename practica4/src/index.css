@@ -53,13 +53,29 @@ input::placeholder {
 }
 
 
-i.bx.bx-check, 
-i.bx.bx-trash {
+.checkButton, 
+.deleteButton {
   margin-left: 3px;
   cursor: pointer;
+  width: auto; 
+  height: 20px;
+}
+
+.checkButton {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+}
+
+.deleteButton {
+  background-color: #bf1717;
+  border: none;
+  border-radius: 5px;
 }
 
 .completed {
   text-decoration: line-through;
   text-decoration-thickness: 1px; 
 }
+
+
